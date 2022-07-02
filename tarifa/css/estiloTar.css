@@ -11,7 +11,7 @@ html {
 #contendeor {width: 100%;overflow: hidden;}
 
 #arriba {
-    border: 1px solid black;
+  
     background: url("../../Imagenes/surf/IMG_9921.jpg") no-repeat ;
     background-size: cover;
     object-fit: cover;
@@ -22,7 +22,7 @@ html {
 }
 
 #abajo {
-    border: 1px solid black;
+  
     background: url("../../Imagenes/surf/Balneario3.jpg") no-repeat ;
     background-size: cover;
     object-fit: cover;

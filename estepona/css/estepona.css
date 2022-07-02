@@ -11,7 +11,7 @@ html {
 #contendeor {width: 100%;overflow: hidden;}
 
 #izq {
-    border: 1px solid black;
+   
     background: url("../../Imagenes/surf/IMG_1447.jpg") no-repeat ;
     background-size: cover;
     object-fit: cover;
@@ -22,7 +22,7 @@ html {
 }
 
 #der {
-    border: 1px solid black;
+ 
     background: url("../../Imagenes/surf/IMG_2312.jpg") no-repeat ;
     background-size: cover;
     object-fit: cover;

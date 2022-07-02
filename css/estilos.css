@@ -13,17 +13,17 @@ body{  width: 100%;
     height: 100%;}
 
 body {
-    background: url("../Imagenes/surf/IMG_1498.jpg") no-repeat ;
+    background: url("../Imagenes/surf/IMG_1497.jpg") no-repeat ;
     background-size: cover;
     position: relative;
     display: flex;
     flex-flow: row;
     width: 100%;
-    height: 100%;
+    height: 650px;
     
 }
 
-#contenedor{width: 100%; height: 100%; border: 2px solid red; overflow: hidden;}
+#contenedor{width: 100%; height: 100%;  overflow: hidden;}
 
 #titulo {
     text-align: center;
@@ -45,25 +45,16 @@ body {
     text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
 }
 
-#pie{
-    width: 100% ;
-    height: 350px;
-    text-align: center;
-    margin-top: 70%;
-    border: 1px solid black;
-    background: url("../Imagenes/surf/IMG_3568.jpg") no-repeat ;
-    background-size: contain;
-    display: flex;
-    flex-flow: row;
-    overflow: hidden;
-  
-}
+#pie{position: absolute;
+    bottom: 0px; width: 100%; margin-left: 7px;}
+
+
 #pie ul{
     width: 100%;
 }
 #pie li {
    
- border: 1px solid greenyellow;
+
    float:left;
     list-style: none;
 }
@@ -73,8 +64,8 @@ li {width: 33%;}
 #pie li a {
     display: block;
     text-decoration: none;
-    color:blue;
-    border: 1px solid black;
+    color:Arial blue;
+   
     text-align: center;
     margin: 0 auto;
    
@@ -83,7 +74,7 @@ li {width: 33%;}
 #pie a {
     text-align: center; 
     font-family: Arial blue; 
-    font-weight: bold; font-size: 30px; 
+    font-weight: bold; font-size: 50px; 
     background: #202020; 
     -webkit-background-clip: text; 
     -moz-background-clip: text; 
@@ -93,8 +84,3 @@ li {width: 33%;}
 
 }
 
-#video{
-
-
-    float: right;
-}
