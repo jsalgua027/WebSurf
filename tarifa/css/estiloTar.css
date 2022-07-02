@@ -10,24 +10,24 @@ html {
 
 #contendeor {width: 100%;overflow: hidden;}
 
-#izq {
+#arriba {
     border: 1px solid black;
-    background: url("../../Imagenes/surf/IMG_1447.jpg") no-repeat ;
+    background: url("../../Imagenes/surf/IMG_9921.jpg") no-repeat ;
     background-size: cover;
     object-fit: cover;
     width: 100%;
-    height: 700px;
+    height: 600px;
    overflow: hidden;
 
 }
 
-#der {
+#abajo {
     border: 1px solid black;
-    background: url("../../Imagenes/surf/IMG_2312.jpg") no-repeat ;
+    background: url("../../Imagenes/surf/Balneario3.jpg") no-repeat ;
     background-size: cover;
     object-fit: cover;
     width: 100%;
-    height: 500px;
+    height: 600px;
    overflow: hidden;
    
 }
