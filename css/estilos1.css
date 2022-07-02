@@ -1,0 +1,80 @@
+html {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+#contenedor {
+    border: 1px solid black;
+    background: url("../Imagenes/surf/IMG_9921.jpg") no-repeat ;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
+   overflow: hidden;
+   
+}
+
+#titulo {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+#titulo p {
+    
+    text-align: center; 
+    font-family: Arial blue; 
+    font-weight: bold; font-size: 80px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+}
+
+#pie{
+
+border:1px solid black ;
+width: 100%;
+overflow: hidden;
+background: url("../Imagenes/surf/IMG_1497.jpg") no-repeat ;
+background-size: cover;
+height: 200px;
+}
+
+#pie li {
+    
+list-style: none;
+
+}
+#pie li a {
+    border: 1px solid red;
+    text-decoration: none;
+   
+    display: block;
+    width: 33.33%;
+    float: left;
+
+}
+
+#pie li a {
+    font-family: Arial blue; 
+    font-weight: bold; font-size: 20px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+}
+
